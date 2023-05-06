@@ -1,5 +1,9 @@
 #Create a method that will add, debit a user and delete a function
 #Parent class = BankAccount
+#create a bank account 
+#add user with  initial balance 
+#debit from the balance
+#delete account
 
 class BankAccount:
     def __init__(self, balance):
@@ -16,6 +20,7 @@ class BankAccount:
         print('account deleted')
 
 #Child class/Sub class = account
+
 account = BankAccount(1000)
 account.add(500)
 print(account.balance)

@@ -19,7 +19,6 @@ class BankAccount:
         self.balance = 0
         print('account deleted')
 
-#Child class/Sub class = account
 
 account = BankAccount(1000)
 account.add(500)
